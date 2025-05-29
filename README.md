@@ -25,15 +25,6 @@ Complete RESTful API for people record management with CRUD operations, advanced
 | POST | `/person` | Create new person with generated UUID |
 | DELETE | `/person/<uuid>` | Remove person by UUID |
 
-## How to Run
-
-```bash
-# Install dependencies
-pip install flask
-
-# Run application
-python app.py
-
 Error Handling
 The API returns appropriate status codes with informative messages:
 
@@ -43,3 +34,12 @@ The API returns appropriate status codes with informative messages:
 | 404 | Not Found: Resource not found |
 | 422 | Unprocessable Entity: Invalid input data |
 | 500 | Internal Server Error: Unexpected server errors |
+
+## How to Run
+
+```bash
+# Install dependencies
+pip install flask
+
+# Run application
+python app.py
